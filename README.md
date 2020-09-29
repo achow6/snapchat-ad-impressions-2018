@@ -5,7 +5,7 @@ This project uses Snaphat political and advocacy advertisement data. As a Snapch
 Gender of the targetted audience, number of days an advertisement is shown, and amount spent on an advertisement are the independent variables explored to help predit impressions for an advertisement.
 
 # Business Question
-Can you predict the number of impressions for an advertisement for any of the years of given data?
+Can you predict the number of impressions for a United States advertisement for any of the years of given data?
 
 # Data Question
 Simple Linear Regression: Can amount money spent on an ad predict the number of impressions for it?

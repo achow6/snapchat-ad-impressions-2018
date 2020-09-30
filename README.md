@@ -1,14 +1,15 @@
 # Looking at How Different Independent Variables Can Help Predict the Number of Impressions for an Advertisement
 
 This project serves to see whether independent variables can be used to predict the number of impressions for an advertisement. Being able to predict the number of impressions is important and helpful for businesses to decide how to maximize their advertisement outreach with the money they have available.
-This project uses Snaphat political and advocacy advertisement data. As a Snapchat user who views these advertisements, this information is relevant and interesting to me.
+This project uses Snapchat political and advocacy advertisement data. As a Snapchat user who views these advertisements, this information is relevant and interesting to me.
 Gender of the targetted audience, number of days an advertisement is shown, and amount spent on an advertisement are the independent variables explored to help predit impressions for an advertisement.
 
 # Business Question
 Can you predict the number of impressions for a United States advertisement for any of the years of given data?
 
 # Data Question
-Simple Linear Regression: Can amount money spent on an ad predict the number of impressions for it?
+Simple Linear Regression: Can amount money spent on an advertisement predict the number of impressions for it?
+
 Multiple Linear Regression: Does gender of the targetted audience, number of days an advertisement is shown, and amount spent on an advertisement predict the number of impressions?
 
 # Data Source
@@ -35,4 +36,4 @@ The p-value for "Spend" is 6.2144E-148. Since this is less than 0.05, it indicat
 This is the summary output for the multiple linear regression model showing the relationship between spending, number of days an advertisement was shown, and number of impressions. The equation indicated by this summary is: Impressions = -95256.86775 + 341.1214575(Spend) + 6403.996258(Days). This suggests that as spending and length of time an advertisement is shown increases, so does impressions.
 Notice that gender of the intended audience was not included because it was found to be not statistically significant for the end model (p-value was 0.494253038, which is higher than 0.05). The other independent variables "Spend" (p-value 3.6903E-137) and "Days" (p-value 1.27866E-11) were statistically significant for predicting impressions because their p-values were lower than 0.05. The regression model for "Spend", "Days", and "Impressions" had a low F significance (3.7938E-145) like the simple linear regression model, which shows that "Spend" and "Days" matter for the end model. The R squared value is 0.637740258, which indicates that about 63.7% of the data can be predicted with the model.
 
-These models suggest a correlation between spending, days an advertisement is shown, and number of impressions. Increasing amount spent and number of days advertising could lead to increased impressions. However, gender of the targetted audience does not have a statistically significant effect on impressions and cannot be used to predict them. Using these models, businesses can explore how to maximize their advertisement impressions with less money.
+These models suggest a correlation between spending, days an advertisement is shown, and number of impressions. Increasing amount spent and number of days advertising could lead to increased impressions. However, gender of the targetted audience does not have a statistically significant effect on impressions and the results suggest that it should not be used to predict impressions. Using these models, businesses can explore how to maximize their advertisement impressions with less money.
